@@ -1,10 +1,8 @@
 # OSIB: Google CSE Plugins
 
 This repository contains [OSIB (_**OSI**NT**B**uddy_)](https://github.com/osintbuddy/osintbuddy) Python plugins built with the [`osintbuddy` framework](https://github.com/osintbuddy/framework).
-In this plugins pack we have collected and categorized hundreds of [Googles CSE](https://programmablesearchengine.google.com/about/) (Custom Search Engine) [URLs](./entities/cses.json).
-Use these OSIB [`transforms/`](./transforms/) and [`entities/`](./entities/) for retrieving and displaying search results from Googles [Programmable Search Engines](https://developers.google.com/custom-search/docs/tutorial/introduction) in OSIB.
 
-```                                 ~ Built with love, by jerlendds ♥
+```~ Built with love, by jerlendds ♥
             *************.
         .*******************.
       =***********************+
@@ -31,6 +29,9 @@ Use these OSIB [`transforms/`](./transforms/) and [`entities/`](./entities/) for
 
 
 ```
+
+In this plugins pack we have collected and categorized hundreds of [Googles CSE](https://programmablesearchengine.google.com/about/) (Custom Search Engine) [URLs](./entities/cses.json).
+You can use these OSIB [`transforms/`](./transforms/) and [`entities/`](./entities/) for retrieving and displaying search results from Googles [Programmable Search Engines](https://developers.google.com/custom-search/docs/tutorial/introduction) in the OSIB app.
 
 ## License
 
