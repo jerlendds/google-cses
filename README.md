@@ -4,7 +4,7 @@ This repository contains [OSIB (_**OSI**NT**B**uddy_)](https://github.com/osintb
 In this plugins pack we have collected and categorized hundreds of [Googles CSE](https://programmablesearchengine.google.com/about/) (Custom Search Engine) [URLs](./entities/cses.json).
 Use these OSIB [`transforms/`](./transforms/) and [`entities/`](./entities/) for retrieving and displaying search results from Googles [Programmable Search Engines](https://developers.google.com/custom-search/docs/tutorial/introduction) in OSIB.
 
-```
+```                                 ~ Built with love, by jerlendds ♥
             *************.
         .*******************.
       =***********************+
@@ -29,7 +29,7 @@ Use these OSIB [`transforms/`](./transforms/) and [`entities/`](./entities/) for
       │   API 4 curated search results   |
       🃁─────────────────────────────────🂱
 
-      ~ Built with love, by jerlendds ♥
+
 ```
 
 ## License
