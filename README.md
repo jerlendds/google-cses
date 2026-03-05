@@ -3,7 +3,7 @@
 This repository contains [OSIB (_**OSI**NT**B**uddy_)](https://github.com/osintbuddy/osintbuddy) Python plugins built with the [`osintbuddy` framework](https://github.com/osintbuddy/framework).
 
 ```
-                      ~ Built with love ♥ by jerlendds ~
+                                       ~ Built with love ♥ by jerlendds
 
             *************.
         .*******************.
@@ -28,8 +28,6 @@ This repository contains [OSIB (_**OSI**NT**B**uddy_)](https://github.com/osintb
       │   jack into the Google CSE       │
       │   API 4 curated search results   |
       🃁─────────────────────────────────🂱
-
-
 ```
 
 In this plugins pack we have collected and categorized hundreds of [Googles CSE](https://programmablesearchengine.google.com/about/) (Custom Search Engine) [URLs](./entities/cses.json).
