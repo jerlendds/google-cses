@@ -21,7 +21,6 @@ This repository contains [OSIB (_**OSI**NT**B**uddy_)](https://github.com/osintb
       .+++++++++++++++.
            .+++++.
 
-
       🂡─────────────────────────────────🃑
       │   jack into the Google CSE       │
       │   API 4 curated search results   |
