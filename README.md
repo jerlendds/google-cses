@@ -2,7 +2,9 @@
 
 This repository contains [OSIB (_**OSI**NT**B**uddy_)](https://github.com/osintbuddy/osintbuddy) Python plugins built with the [`osintbuddy` framework](https://github.com/osintbuddy/framework).
 
-```~ Built with love, by jerlendds ♥
+```
+                      ~ Built with love ♥ by jerlendds ~
+
             *************.
         .*******************.
       =***********************+
