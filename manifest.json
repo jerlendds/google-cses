@@ -1,0 +1,102 @@
+{
+  "id": "fc510cd9-9834-4bf5-b66b-a097d99ac06c-jerlendds-google-cses",
+  "name": "google-cses",
+  "author": "jerlendds",
+  "description": "Describe your OSINTBuddy plugin repository...",
+  "repo": "jerlendds/google-cses",
+  "homepage": "https://github.com/jerlendds/google-cses",
+  "license": "MIT",
+  "warnings": [
+    "Detected external imports not declared in pyproject dependencies: httpx",
+    "Network-facing imports detected: httpx, urllib"
+  ],
+  "tags": [],
+  "min_app_version": "0.3.1",
+  "entities": [
+    {
+      "id": "cse_result@1.0.0",
+      "version": "1.0.0",
+      "label": "CSE Result",
+      "category": "Search",
+      "color": "#59A12866",
+      "icon": "brand-google",
+      "author": "OSIB",
+      "description": "",
+      "file": "entities/cse_result.py",
+      "module": "entities.cse_result",
+      "class": "CSESearchResult"
+    },
+    {
+      "id": "cse_search@1.0.0",
+      "version": "1.0.0",
+      "label": "CSE Search",
+      "category": "Search",
+      "color": "#78C84166",
+      "icon": "world-search",
+      "author": "OSIB",
+      "description": "Search through hundreds of categorized custom search engines from Google",
+      "file": "entities/cse_search.py",
+      "module": "entities.cse_search",
+      "class": "GoogleCSESearch"
+    },
+    {
+      "id": "telegram_cse_search@1.0.0",
+      "version": "1.0.0",
+      "label": "Telegram CSE Search",
+      "category": "Search",
+      "color": "#2AABEEaa",
+      "icon": "brand-telegram",
+      "author": "OSIB",
+      "description": "CSE search for telegram communities",
+      "file": "entities/telegram_cse_search.py",
+      "module": "entities.telegram_cse_search",
+      "class": "TelegramWebsearch"
+    }
+  ],
+  "transforms": [
+    {
+      "id": "transforms.cse_result_to_url:to_url",
+      "target": "cse_result@1.0.0",
+      "target_spec": "cse_result@1.0.0",
+      "label": "To URL",
+      "icon": "link",
+      "function": "to_url",
+      "file": "transforms/cse_result_to_url.py",
+      "module": "transforms.cse_result_to_url"
+    },
+    {
+      "id": "transforms.cse_search_to_results:to_cse_results",
+      "target": "cse_search@1.0.0",
+      "target_spec": "cse_search@1.0.0",
+      "label": "To cse results",
+      "icon": "search",
+      "function": "to_cse_results",
+      "file": "transforms/cse_search_to_results.py",
+      "module": "transforms.cse_search_to_results"
+    },
+    {
+      "id": "transforms.telegram_cse_search:to_cse_search",
+      "target": "telegram_cse_search@1.0.0",
+      "target_spec": "telegram_cse_search@1.0.0",
+      "label": "To CSE Search",
+      "icon": "search",
+      "function": "to_cse_search",
+      "file": "transforms/telegram_cse_search.py",
+      "module": "transforms.telegram_cse_search"
+    }
+  ],
+  "file_hashes": {
+    ".gitignore": "4de8cad53b350a0504658c61322b79d3395ea54e6a21037f2796d38b972b4df2",
+    "LICENSE": "076e8b69995ec9aa8e2777164c38b33d1659af3a653ecae0136d6c1855eac901",
+    "README.md": "980da04fd1d6eef16d76bfbe098460362a94c31d5ec81b14951e30f27e0a0b4d",
+    "entities/cse_result.py": "6446c27a4357fe97d62ef440dcb7ebfcfb09ef1e2606c093d5459344b64cefa5",
+    "entities/cse_search.py": "18d039c9b488dae81bb5eb2ca53b05935641a7552162c7361790656576e01232",
+    "entities/cses.json": "97c49cff1be15a8d19eb35fba25d648c6812c471c49869041a740b56dec7351b",
+    "entities/telegram_cse_search.py": "9681c949df70345339bcbb9431e00390cfb99ce60bd7ca80b89bdc77beaab774",
+    "manifest.json": "2c74b93bd6681573184010e64f477dd89c672c3f4d2fe6e1eb18fe94bbd27372",
+    "transforms/cse_result_to_url.py": "cc19321e0bf7c4678d9b179462bd87f2b9a79e345d09663e86ced28114078ce7",
+    "transforms/cse_search_to_results.py": "4c0ee939f73c935d2b2cc8fb31c0dcf25e69aad5536f0e2f30972a0daa3e7059",
+    "transforms/global_cse_search.py": "92f06282564fd7457f17a60b7f1e4df185695bdc6ea28499c7e5334f52046515",
+    "transforms/telegram_cse_search.py": "b89b321a08571b05a0105f31b6a1b4040036582e7af2e0f19a044c9976df4fef"
+  }
+}
