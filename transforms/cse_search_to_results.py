@@ -3,8 +3,8 @@ import json, re, random, asyncio
 from typing import Optional
 
 import httpx
-from osintbuddy import transform, Registry
-from osintbuddy.errors import PluginError
+from omoika import transform, Registry
+from omoika.errors import PluginError
 
 async def _map_cse_to_entity(resp):
     entities = []

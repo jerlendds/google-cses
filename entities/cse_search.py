@@ -1,5 +1,5 @@
-from osintbuddy import Plugin, read_resource_json
-from osintbuddy.elements import TextInput, DropdownInput
+from omoika import Plugin, read_resource_json
+from omoika.elements import TextInput, DropdownInput
 
 
 cses_db = read_resource_json(__file__, "cses.json", default=[])

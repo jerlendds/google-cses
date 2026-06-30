@@ -1,5 +1,5 @@
-from osintbuddy.elements import Title, CopyText, Text
-from osintbuddy import Plugin
+from omoika.elements import Title, CopyText, Text
+from omoika import Plugin
 
 
 class CSESearchResult(Plugin):

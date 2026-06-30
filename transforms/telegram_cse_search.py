@@ -1,5 +1,5 @@
 from osintbuddy import transform, Registry
-from osintbuddy.plugins import TransformPayload
+from omoika.plugins import TransformPayload
 
 
 telegram_cse_urls = [

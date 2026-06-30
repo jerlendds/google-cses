@@ -1,5 +1,5 @@
-from osintbuddy import Plugin
-from osintbuddy.elements import TextInput
+from omoika import Plugin
+from omoika.elements import TextInput
 
 
 class TelegramWebsearch(Plugin):
