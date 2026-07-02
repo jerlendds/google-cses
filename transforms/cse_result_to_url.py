@@ -1,4 +1,4 @@
-from osintbuddy import transform, Registry
+from omoika import transform, Registry
 
 @transform(
     target='cse_result@1.0.0',
