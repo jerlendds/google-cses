@@ -1,4 +1,4 @@
-from omoika.elements import Title, CopyText, Text
+from omoika.elements import Title, Url, Text
 from omoika import Plugin
 
 
@@ -9,12 +9,12 @@ class CSESearchResult(Plugin):
     category = "Search"
     color = "#59A12866"
     icon = "brand-google"
-    author = "OSIB"
+    author = "OMOIKA"
     show_option = False
     
     elements = [
         Title(label="title"),
         Text(label="breadcrumb"),
         Text(label="content"),
-        CopyText(label="URL"),
+        Url(label="URL"),
     ]

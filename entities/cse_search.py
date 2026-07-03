@@ -2,7 +2,7 @@ from omoika import Plugin, read_resource_json
 from omoika.elements import TextInput, DropdownInput
 
 
-cses_db = read_resource_json(__file__, "cses.json", default=[])
+cses_db = read_resource_json(__file__, "../resources/cses.json", default=[])
 
 class GoogleCSESearch(Plugin):
     version = "1.0.0"
@@ -10,7 +10,7 @@ class GoogleCSESearch(Plugin):
     label = "CSE Search"
     category = "Search"
     description = 'Search through hundreds of categorized custom search engines from Google'
-    author = "OSIB"
+    author = "OMOIKA"
 
     color = "#78C84166"
     icon = "world-search"

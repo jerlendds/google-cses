@@ -7,7 +7,7 @@ class TelegramWebsearch(Plugin):
  
     label = "Telegram CSE Search"
     category = "Search"
-    author = "OSIB"
+    author = "OMOIKA"
     description = "CSE search for telegram communities"
 
     color = "#2AABEEaa"
