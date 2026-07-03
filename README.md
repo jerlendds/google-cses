@@ -52,7 +52,7 @@ or create a PR with your new additions :)
 
 | File | Type | Purpose |
 | --- | --- | --- |
-| entities/cses.json | json | Configuration or structured metadata |
+| resources/cses.json | json | Configuration or structured metadata |
 
 ## Operational Notes
 
